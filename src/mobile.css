@@ -1,7 +1,7 @@
 @media (max-width: 700px) {
-/* *{
+*{
     border: 2px solid red;
-} */
+}
 .navbar-container {
     display: flex;
     justify-content: space-between;
@@ -78,7 +78,9 @@
         gap: 60px;
         margin: 40px 0px;
         padding: 0px;
-
+.inputs-cont{
+    width: auto;
+}
         .reach-left {
             display: flex;
             flex-direction: column;
@@ -89,14 +91,17 @@
             .inputs {
               display: grid;
               grid-template-columns: auto auto;
-              gap: 10px;
+              gap: 50px;
+              margin: 0 auto;
         
               input {
+                width: 100px;
                 border-top: none;
                 border-left: none;
                 border-right: none;
                 border-bottom: 1px solid #575252;
                 outline: none;
+               
               }
         
               label {
@@ -161,7 +166,7 @@
         /* flex-direction: column; */
         h2{
             font-family: 'Sarpanch';
-            font-size: 12px;
+            font-size: 10px;
             font-weight: 500;
             line-height: 22px;
             letter-spacing: 0.05em;
@@ -544,7 +549,7 @@
     border-right: none;
     border-bottom: 1px solid #575252;
     outline: none;
-    width: 280px;
+    width: 300px;
     padding-bottom: 5px;
     font-family: 'Inter';
     font-size: 13px;
